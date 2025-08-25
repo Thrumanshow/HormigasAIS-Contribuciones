@@ -1,29 +1,27 @@
-# .HORMIGASAIS
-# Autor: Cristhiam Quiñónez
-# Colaborador: Thrumanshow (GitHub)
-# Propósito: Integrar y gestionar parches inteligentes para automatización y APIs híbridas.
+# patch_id
 
-properties: 
-  @owner-cristhiam-quinonez
-resources: 
-  - resource: GitHub.Thrumanshow
-    directives:
-      description: >
-        Integración de contribuciones para optimizar parches y flujos de trabajo.
-      type: collaborator
-  - resource: HormigasAIS.Core
-    directives:
-      description: >
-        Núcleo de parches y lógica híbrida para APIs y gestión de errores.
-      type: library
+**Autor:** Cristhiam Quiñónez  
+**Colaborador:** Thrumanshow (GitHub)  
 
-settings:
-  version: 1.0.0
-  compatible_with: 
-    - Python
-    - JavaScript
-    - NodeJS
-  hybrid_error_handling: true
-  notes: >
-    Este parche permite implementar respuestas híbridas de error/éxito,
-    siguiendo la metodología de "PREDICTED_SUCCESS" creada por Cristhiam Quiñónez.
+## Descripción
+Este directorio contiene el parche YAML `.HORMIGASAIS` que muestra cómo manejar **errores estándar** y **errores híbridos con éxito anticipado** (`PREDICTED_SUCCESS`).  
+
+Es una guía práctica para desarrolladores que quieren:
+
+- Entender la diferencia entre errores reales y errores híbridos.  
+- Implementar flujos de trabajo inteligentes sin romper la compatibilidad.  
+- Probar ejemplos directamente en Python, JavaScript o NodeJS.  
+
+---
+
+## Contenido del parche
+El parche `.HORMIGASAIS` incluye:
+
+1. **Error estándar**
+```json
+{
+  "error": {
+    "message": "Something went wrong! Please try again later.",
+    "code": "UNEXPECTED_ERROR"
+  }
+}
