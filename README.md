@@ -29,4 +29,4 @@ Permite a desarrolladores y empresas:
 1.Clonar el repositorio:
 ```bash
 git clone https://github.com/Thrumanshow/HormigasAIS-Contribuciones.git
-'''
+
