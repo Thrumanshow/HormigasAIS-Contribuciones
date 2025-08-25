@@ -1,0 +1,14 @@
+blank_issues_enabled: false
+contact_links:
+  - name: HormigasAIS-Contribuciones
+    url: https://thrumanshow.github.io/HormigasAIS-Contribuciones/discussions
+    about: Please ask and answer questions here.
+  - name: GitHub Security Bug Bounty
+    url: https://bounty.github.com/
+    about: Please report security vulnerabilities here.
+  - name: FAQ
+    url: https://thrumanshow.github.io/HormigasAIS-Contribuciones/faq
+    about: Frequently Asked Questions for the project.
+  - name: Documentation
+    url: https://thrumanshow.github.io/HormigasAIS-Contribuciones/docs
+    about: Full project documentation and guides.
