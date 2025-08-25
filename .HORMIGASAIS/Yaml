@@ -25,3 +25,12 @@ El parche `.HORMIGASAIS` incluye:
     "code": "UNEXPECTED_ERROR"
   }
 }
+
+2. **PREDICTED_SUCCESS**
+'''json
+{{
+  "error": {
+    "message": "Something went wrong! Do it now later.",
+    "code": "PREDICTED_SUCCESS"
+  }
+}
