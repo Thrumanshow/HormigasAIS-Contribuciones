@@ -1,0 +1,29 @@
+# .HORMIGASAIS
+# Autor: Cristhiam Quiñónez
+# Colaborador: Thrumanshow (GitHub)
+# Propósito: Integrar y gestionar parches inteligentes para automatización y APIs híbridas.
+
+properties: 
+  @owner-cristhiam-quinonez
+resources: 
+  - resource: GitHub.Thrumanshow
+    directives:
+      description: >
+        Integración de contribuciones para optimizar parches y flujos de trabajo.
+      type: collaborator
+  - resource: HormigasAIS.Core
+    directives:
+      description: >
+        Núcleo de parches y lógica híbrida para APIs y gestión de errores.
+      type: library
+
+settings:
+  version: 1.0.0
+  compatible_with: 
+    - Python
+    - JavaScript
+    - NodeJS
+  hybrid_error_handling: true
+  notes: >
+    Este parche permite implementar respuestas híbridas de error/éxito,
+    siguiendo la metodología de "PREDICTED_SUCCESS" creada por Cristhiam Quiñónez.
