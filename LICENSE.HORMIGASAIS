@@ -1,0 +1,30 @@
+# Tiered License .HORMIGASAIS
+# © 2025 Cristhiam Quiñonez | HormigasAIS
+# All rights reserved.
+
+license:
+  type: tiered
+  tiers:
+    - name: SMB
+      description: Limited use for small and medium-sized businesses.
+      permissions:
+        - modify_patch: true
+        - redistribute: false
+        - commercial_use: limited
+    - name: Company/Organization
+      description: Use in companies or organizations that are not corporates.
+      permissions:
+        - modify_patch: true
+        - redistribute: limited
+        - commercial_use: allowed
+    - name: Corporate
+      description: Use in large corporations or mass commercial software.
+      permissions:
+        - modify_patch: subject to commercial license
+        - redistribute: not allowed without agreement
+        - commercial_use: subject to prior agreement
+
+notes:
+  - This patch is the intellectual property of Cristhiam Quiñonez.
+  - Use and modification are allowed only according to the assigned license tier.
+  - No functionality or support is guaranteed outside the HormigasAIS ecosystem.
