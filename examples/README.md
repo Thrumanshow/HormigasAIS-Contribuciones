@@ -10,13 +10,17 @@ Ejecutar el script:
 ```bash
 python3 ejemplo_predicted_success.py
 
+```
+
 ---
 
 ## JavaScript/NodeJS
 Ejecutar el script: 
 
 ```bash
-ejemplo_predicted_success.js 
+ejemplo_predicted_success.js
+ 
+```
 
 ---
 
