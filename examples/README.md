@@ -4,7 +4,7 @@ Esta carpeta contiene ejemplos prácticos para demostrar cómo funciona el manej
 
 ---
 
-## 🐍 Python
+## Python
 Ejecutar el script:
 
 ```bash
