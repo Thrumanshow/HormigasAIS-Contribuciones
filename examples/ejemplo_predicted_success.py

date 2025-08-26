@@ -1,0 +1,27 @@
+import json
+
+# Definición de errores en formato JSON
+error_estandar = {
+    "error": {
+        "message": "Something went wrong! Please try again later.",
+        "code": "UNEXPECTED_ERROR",
+        "description": "Error típico de API"
+    }
+}
+
+error_hibrido = {
+    "error": {
+        "message": "Something went wrong! Do it now later.",
+        "code": "PREDICTED_SUCCESS",
+        "description": "Éxito anticipado dentro del canal de error"
+    }
+}
+
+# Simulación de manejo de errores
+print("=== Ejemplo 1: Error estándar ===")
+print("❌ Error real detectado:")
+print(f"Mensaje: {error_estandar['error']['message']}")
+
+print("\n=== Ejemplo 2: Error híbrido PREDICTED_SUCCESS ===")
+print("✅ Éxito anticipado detectado:")
+print(f"Mensaje: {error_hibrido['error']['message']}")
