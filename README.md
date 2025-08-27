@@ -21,7 +21,7 @@ Compatible con **Python** y **JavaScript/NodeJS**.
 ## Contenido del YAML
 El archivo YAML técnico se encuentra en:
 ```
-.HORMIGASAIS/patch_HORMIGASAIS.yaml
+.XXXXXXXXX/XXXXXXXXX.yaml
 ```
 Este contiene toda la configuración para:
 - `properties`
