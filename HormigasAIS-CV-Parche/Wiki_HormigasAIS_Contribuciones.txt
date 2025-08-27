@@ -1,0 +1,38 @@
+## ¡Bienvenidos a la wiki de HormigasAIS-Contribuciones!
+
+Los wikis proporcionan un lugar en su repositorio para diseñar la hoja de ruta de su proyecto, mostrar el estado actual y documentar mejor el software, juntos.
+
+---
+
+# Índice
+
+- [Home](#home)
+- [Getting Started](#getting-started)
+- [Contributing](#contributing)
+- [Releases](#releases)
+- [Lenguaje Binario HormigasAIS](#lenguaje-binario-hormigasais)
+- [Casos de Uso](#casos-de-uso)
+- [Roadmap](#roadmap)
+
+---
+
+## Home
+Bienvenido a HormigasAIS-Contribuciones. Aquí encontrarás la documentación central, ejemplos prácticos, y guías para explorar y contribuir al proyecto.
+
+## Getting Started
+Cómo clonar el repositorio, instalar dependencias y ejecutar ejemplos.
+
+## Contributing
+Guía para realizar contribuciones, abrir issues, enviar pull requests, y seguir las normas de estilo y licencias.
+
+## Releases
+Sección donde se listan los releases publicados y sus notas de cambios.
+
+## Lenguaje Binario HormigasAIS
+Explicación del sistema único de identificación de recursos, incluyendo convenciones como `00 = espacio de palabras`.
+
+## Casos de Uso
+Ejemplos prácticos de aplicación del proyecto en automatización, SEO, análisis de datos y marketing digital.
+
+## Roadmap
+Planes futuros, nuevas integraciones, mejoras y desarrollo continuo del proyecto HormigasAIS.
