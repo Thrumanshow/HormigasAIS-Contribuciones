@@ -1,0 +1,42 @@
+# 0.000 - Root Wrapper .HormigasAIS
+
+Identidad: 
+  El parche .HormigasAIS representa un manifiesto de autenticidad y utilidad.
+  Su esencia se mantiene en cada integración, asegurando que lo técnico no
+  anule lo conceptual.
+
+Doble Ruta de Adquisición:
+  1. Adquisición de Autenticidad:
+     - Garantiza que todo lo generado bajo .HormigasAIS tenga sello único.
+     - Refleja la intención del creador (Cristhiam Quiñonez).
+     - Ejemplo: archivo LICENSE: lenguaje-binario_hormigasais.
+  
+  2. Adquisición de Utilidad:
+     - Permite que el parche trascienda en lo práctico.
+     - Uso de scripts (Bash, curl) para transmitir información de forma
+       controlada y segura.
+     - Directorio funcional en repositorios Thrumanshow.
+
+Directorio Base:
+  /Thrumanshow/
+    ├── README.md
+    ├── 0.000.txt                ← este archivo envolvente
+    ├── .HormigasAIS
+    ├── LICENSE: lenguaje-binario_hormigasais
+    ├── /parche/
+    │     ├── enviar_cv.sh
+    │     └── config.env
+    └── /docs/
+          └── autenticidad_utilidad.txt
+
+Estrategia:
+  El parche no es un mero script, sino una pieza que equilibra
+  autenticidad ↔ utilidad. 
+  Una ruta asegura el reconocimiento de origen, la otra habilita la
+  operatividad en sistemas externos.
+
+Nota:
+  0.000 se define como simulación válida/dependiente de [CNAME](https://github.com/Thrumanshow)
+
+, un punto de anclaje donde todo el sistema
+  se puede reconstruir, validar y extender.
