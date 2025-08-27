@@ -1,36 +1,44 @@
-# patch_id
+patch_id: HORMIGASAIS-ERR-HYBRID-001
+author: Cristhiam Quiñonez
+collaborator: Thrumanshow (GitHub)
+created_at: 2025-08-27
+last_updated: 2025-08-27
 
-**Autor:** Cristhiam Quiñónez  
-**Colaborador:** Thrumanshow (GitHub)  
+properties:
+  @owner: cristhiam-quinonez
 
-## Descripción
-Este directorio contiene el parche YAML `.HORMIGASAIS` que muestra cómo manejar **errores estándar** y **errores híbridos con éxito anticipado** (`PREDICTED_SUCCESS`).  
+resources:
+  - resource: GitHub.Thrumanshow
+    directives:
+      description: "Optimización de flujos de error/éxito híbridos"
+      type: collaborator
+  - resource: HormigasAIS.Core
+    directives:
+      description: "Núcleo de parches y lógica híbrida"
+      type: library
 
-Es una guía práctica para desarrolladores que quieren:
+settings:
+  version: 1.0.0
+  compatible_with: [Python, JavaScript, NodeJS]
+  hybrid_error_handling: true
 
-- Entender la diferencia entre errores reales y errores híbridos.  
-- Implementar flujos de trabajo inteligentes sin romper la compatibilidad.  
-- Probar ejemplos directamente en Python, JavaScript o NodeJS.  
+examples:
+  - name: Error estándar
+    json:
+      error:
+        message: "Something went wrong! Please try again later."
+        code: "UNEXPECTED_ERROR"
+    description: "Error típico de API"
 
----
+  - name: Error híbrido PREDICTED_SUCCESS
+    json:
+      error:
+        message: "Something went wrong! Do it now later."
+        code: "PREDICTED_SUCCESS"
+    description: "Éxito anticipado dentro del canal de error"
 
-## Contenido del parche
-El parche `.HORMIGASAIS` incluye:
-
-1. **Error estándar**
-```json
-{
-  "error": {
-    "message": "Something went wrong! Please try again later.",
-    "code": "UNEXPECTED_ERROR"
-  }
-}
-
-2. **PREDICTED_SUCCESS**
-'''json
-{{
-  "error": {
-    "message": "Something went wrong! Do it now later.",
-    "code": "PREDICTED_SUCCESS"
-  }
-}
+logic:
+  hybrid_error_handling:
+    - detect: code == "PREDICTED_SUCCESS"
+    - route: success_channel
+    - fallback: error_channel
