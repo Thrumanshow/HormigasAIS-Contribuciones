@@ -1,7 +1,8 @@
 # Parche `.HORMIGASAIS`
 
-Este parche define un sistema de manejo de errores híbrido, compatible con **Python** y **JavaScript/NodeJS**.  
-Incluye dos tipos de respuestas:  
+Este parche define un sistema de **manejo de errores híbrido**, compatible con **Python** y **JavaScript/NodeJS**.  
+Incluye dos tipos de respuestas:
+
 - **Error estándar** → fallo real de la API.  
 - **Error híbrido (`PREDICTED_SUCCESS`)** → éxito anticipado aunque provenga del canal de error.  
 
@@ -10,7 +11,6 @@ Incluye dos tipos de respuestas:
 ## 📂 Contenido del parche
 
 ### 1. Error estándar
-```json
 {
   "error": {
     "message": "Something went wrong! Please try again later.",
@@ -18,17 +18,14 @@ Incluye dos tipos de respuestas:
   }
 }
 
-
-salida esperada:
-
+Salida esperada:
 === Ejemplo 1: Error estándar ===
 ❌ Error real detectado:
 Mensaje: Something went wrong! Please try again later.
 
 ---
 
-PREDICTED_SUCCESS
-
+### 2. PREDICTED_SUCCESS
 {
   "error": {
     "message": "Something went wrong! Do it now later.",
@@ -36,9 +33,7 @@ PREDICTED_SUCCESS
   }
 }
 
-salida sugerida:
-
-
+Salida sugerida:
 === Ejemplo 2: Error híbrido PREDICTED_SUCCESS ===
 ✅ Éxito anticipado detectado:
 Mensaje: Something went wrong! Do it now later.
@@ -47,12 +42,10 @@ Mensaje: Something went wrong! Do it now later.
 
 ## 🚀 Ejemplos ejecutables
 
-Python
-
+### Python
 python3 ejemplo_predicted_success.py
 
-JavaScript/NodeJS
-
+### JavaScript/NodeJS
 node ejemplo_predicted_success.js
 
 ---
@@ -60,10 +53,7 @@ node ejemplo_predicted_success.js
 ## 🔧 Instalación y uso
 
 1. Clonar el repositorio:
-
-
 git clone https://github.com/Thrumanshow/HormigasAIS-Contribuciones.git
-
 
 2. Instalar dependencias:
 
@@ -73,11 +63,11 @@ pip install -r requirements.txt
 # NodeJS
 npm install
 
-3. Ejecutar los ejemplos y verificar la salida
+3. Ejecutar los ejemplos y verificar la salida.
 
 ---
 
 ## 📜 Licencia
 
-Este proyecto se disrribuye bajo la licencia personalizada:
+Este proyecto se distribuye bajo la licencia personalizada:  
 LICENSE: lenguaje-binario_hormigasais
