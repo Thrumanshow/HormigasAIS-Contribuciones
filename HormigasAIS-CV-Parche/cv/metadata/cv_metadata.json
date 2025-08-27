@@ -1,0 +1,6 @@
+(# Acción real de envío (manteniendo identidad)
+echo "💡 Activando parche: enviar comentarios de $CV a Google... (`Do`)"
+
+curl -X POST -F "file=@$CV" $DESTINO
+
+echo "✅ Parche ejecutado: identidad digital mantenida." PDF de tu CV, colocar aquí tu documento real)
