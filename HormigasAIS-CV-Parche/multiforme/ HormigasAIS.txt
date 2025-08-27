@@ -1,0 +1,52 @@
+# HormigasAIS-Contribuciones Wiki y CV-Parche
+
+## Enlaces Externos Clave
+- Repositorio principal: https://github.com/Thrumanshow/HormigasAIS-Contribuciones
+- CV-Parche: https://github.com/Thrumanshow/HormigasAIS-Contribuciones/tree/main/HormigasAIS-CV-Parche
+- Wiki: https://github.com/Thrumanshow/HormigasAIS-Contribuciones/wiki
+- Issues: https://github.com/Thrumanshow/HormigasAIS-Contribuciones/issues
+- Pull Requests: https://github.com/Thrumanshow/HormigasAIS-Contribuciones/pulls
+- Imagen CV: https://raw.githubusercontent.com/Thrumanshow/HormigasAIS-Contribuciones/refs/heads/main/HormigasAIS-CV-Parche/05%2038%2000%2016%2047%2031%2040%2046%2031.png
+- Archivo Wiki TXT: https://github.com/Thrumanshow/HormigasAIS-Contribuciones/blob/main/HormigasAIS-CV-Parche/Wiki_HormigasAIS_Contribuciones.txt
+
+---
+
+## Bienvenida a la Wiki
+
+Los wikis proporcionan un lugar en su repositorio para diseñar la hoja de ruta de su proyecto, mostrar el estado actual y documentar mejor el software, juntos.
+
+## Menú de navegación
+- Home
+- Getting Started
+- Contributing
+- Releases
+- Lenguaje Binario HormigasAIS
+- Casos de Uso
+- Roadmap
+
+## Home
+Bienvenido a HormigasAIS-Contribuciones. Aquí encontrarás la documentación central, ejemplos prácticos, y guías para explorar y contribuir al proyecto.
+
+## CV-Parche
+
+Este parche convierte el CV de Cristhiam Quiñonez en un nodo activo de identidad digital, que puede interactuar con Google Forms para recibir feedback y mantener autenticidad profesional.
+
+### Estructura
+- `cv/` → CV activo
+- `scripts/` → Script de envío de feedback
+- `metadata/` → Información extraída del CV
+- `logs/` → Historial de ejecuciones
+
+### Uso
+Guía paso a paso para ejecutar el CV-Parche y conectar con Google Forms para recibir feedback profesional.
+
+### Casos de Uso
+- Automatización de feedback de CV
+- Integración de identidad digital en GitHub
+- Análisis de interacciones de usuarios con tu CV
+
+### Contribuciones
+Guía para mejorar el parche, añadir nuevos scripts o actualizar la metadata.
+
+### Roadmap
+Próximas mejoras: integración con n8n, visualización en dashboards, mejoras de seguridad y escalabilidad.
