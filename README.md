@@ -1,73 +1,83 @@
-# Parche `.HORMIGASAIS`
-
-Este parche define un sistema de **manejo de errores híbrido**, compatible con **Python** y **JavaScript/NodeJS**.  
-Incluye dos tipos de respuestas:
-
-- **Error estándar** → fallo real de la API.  
-- **Error híbrido (`PREDICTED_SUCCESS`)** → éxito anticipado aunque provenga del canal de error.  
+# patch_id
+**Autor:** Cristhiam Quiñónez  
+**Colaborador:** Thrumanshow (GitHub)
 
 ---
 
-## 📂 Contenido del parche
+## Attach binaries
+<img width="1024" height="1536" alt="08 41 44 39 35 33 27 45 01 09 19" src="https://github.com/user-attachments/assets/59a5eb92-a763-4f91-92f4-cf385086e08b"/>
 
-### 1. Error estándar
-{
-  "error": {
-    "message": "Something went wrong! Please try again later.",
-    "code": "UNEXPECTED_ERROR"
-  }
-}
+---
 
-Salida esperada:
+## Descripción
+Este directorio contiene el parche `.HORMIGASAIS` y ejemplos de manejo de errores:  
+- Error estándar → fallo real de la API  
+- Error híbrido `PREDICTED_SUCCESS` → éxito anticipado  
+
+Compatible con **Python** y **JavaScript/NodeJS**.
+
+---
+
+## Contenido del YAML
+El archivo YAML técnico se encuentra en:
+```
+.HORMIGASAIS/patch_HORMIGASAIS.yaml
+```
+Este contiene toda la configuración para:
+- `properties`
+- `resources`
+- `settings`
+- `examples` de errores
+- `logic` de manejo híbrido de errores
+
+> Nota: Para usar el YAML, copiar o referenciar directamente el archivo `.yaml`.
+
+---
+
+## Ejemplos ejecutables
+
+### Python
+```bash
+python3 ejemplo_predicted_success.py
+```
+
+### JavaScript/NodeJS
+```bash
+node ejemplo_predicted_success.js
+```
+
+**Salida esperada:**
+```
 === Ejemplo 1: Error estándar ===
 ❌ Error real detectado:
 Mensaje: Something went wrong! Please try again later.
 
----
-
-### 2. PREDICTED_SUCCESS
-{
-  "error": {
-    "message": "Something went wrong! Do it now later.",
-    "code": "PREDICTED_SUCCESS"
-  }
-}
-
-Salida sugerida:
 === Ejemplo 2: Error híbrido PREDICTED_SUCCESS ===
 ✅ Éxito anticipado detectado:
 Mensaje: Something went wrong! Do it now later.
+```
 
 ---
 
-## 🚀 Ejemplos ejecutables
-
-### Python
-python3 ejemplo_predicted_success.py
-
-### JavaScript/NodeJS
-node ejemplo_predicted_success.js
-
----
-
-## 🔧 Instalación y uso
-
+## Uso
 1. Clonar el repositorio:
+```bash
 git clone https://github.com/Thrumanshow/HormigasAIS-Contribuciones.git
+```
 
 2. Instalar dependencias:
-
+```bash
 # Python
 pip install -r requirements.txt
 
 # NodeJS
 npm install
+```
 
 3. Ejecutar los ejemplos y verificar la salida.
 
 ---
 
-## 📜 Licencia
-
+## Licencia
 Este proyecto se distribuye bajo la licencia personalizada:  
-LICENSE: lenguaje-binario_hormigasais
+**LICENSE: lenguaje-binario_hormigasais**
